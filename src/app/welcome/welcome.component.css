@@ -1,0 +1,114 @@
+#welcomebg {
+    background-image: url("../../assets/karishea.jpg");
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: static;
+    text-transform: uppercase;
+}
+
+#thejourney{
+    font-size: 2em;
+    font-family: 'Martel', serif;
+    color: black;
+    text-shadow:.1em .075em .1em rgb(168, 167, 167);
+}
+
+.links{
+    margin-top: 0em;
+    font-weight: 800;
+    margin: auto 1em;
+    font-size: .75em;
+    font-family: 'Libre Baskerville', serif;
+    display: inline-block;
+}
+
+#splitcolm{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+#welcomecontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+#welcomecontent section{
+    margin: 4em;
+}
+
+#welcomeSection span{
+    display: inline-block;
+    margin-bottom: .65em;
+}
+
+#signature{
+    display: block;
+    padding-right: 2em;
+    width: 100%;
+    text-align: right;
+    font-style: italic;
+}
+
+#journey{
+    font-style: bold;
+    text-transform: uppercase;
+    background-color: #718787;
+    color: white;
+    padding: 1em;
+    top: -1.5em;
+}
+
+#welcomeSection span{
+    display: block;
+}
+
+a{
+position: relative;
+text-decoration: none;
+color: #4B6969;
+}
+
+a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: .15em;
+    bottom: 0;
+    left: 0;
+    background-color: #718787;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+
+  a:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+
+  @media screen and (max-width: 900px) {
+
+    #welcomebg{
+        display: none;
+    }
+    #welcomecontent{
+      width: 100%;
+    }
+    #welcomeSection{
+        height: auto;
+    }
+  
+  }
+  
+  @media screen and (max-width: 500px) {
+    #webapplefwelcomecontent section{
+        margin: 1.5em;
+      }  
+}

@@ -1,0 +1,45 @@
+#contactsection{
+    background-color: #718787;
+    height: 6em;
+    background-image: url("../../assets/footer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+span{
+    color: white;
+}
+
+#contacttitle{
+    font-style: bold;
+    text-transform: uppercase;
+    background-color: #718787;
+    color: white;
+    padding: 1em;
+    top: -.5em;
+    position: relative;
+    margin: auto 1em;
+    font-size: .75em;
+    border: .04em white solid;
+    font-family: 'Libre Baskerville', serif;
+}    
+
+#icons{
+    color:white;
+    text-align: right;
+    margin-right: 3em;
+}
+
+#fontawe{
+    margin-right: .75em;
+}
+
+a{
+    color: white; 
+}
+
+a:hover{
+    color: white;
+    text-shadow:.1em .075em .1em rgba(235, 235, 235, 0.651);
+}
+

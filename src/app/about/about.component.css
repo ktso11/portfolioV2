@@ -1,0 +1,68 @@
+
+#aboutbgimg{
+    background-image: url("../../assets/georgiadelotz.jpg");
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#aboutcontent{
+    width: 50%;
+    margin: 4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#wellhello{
+    font-size: 2em;
+    font-family: 'Martel', serif;
+    color: black;
+    text-shadow:.1em .075em .1em rgb(168, 167, 167);
+}
+
+#aboutsection span{
+    display: inline-block;
+    margin-bottom: .65em;
+}
+
+#picofme{
+    height: 15em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#underline{
+    height: .25em;
+    margin: 0 auto;
+    width: 30%;
+    background-image: linear-gradient(to right, white 0px, #4B6969);
+}
+#iam{
+    text-align: justify;
+}
+
+
+@media screen and (max-width: 900px) {
+
+    #aboutbgimg{
+        display: none;
+    }
+    #aboutcontent{
+      width: 100%;
+    }
+    #aboutme{
+        height: auto;
+    }
+  
+  }
+  
+  @media screen and (max-width: 500px) {
+    #aboutcontent{
+        margin: 1.5em;
+      }  
+}
