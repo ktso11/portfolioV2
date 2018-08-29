@@ -10,8 +10,8 @@ const app = express();
 
 
 
-app.use(express.static(path.join(__dirname + '/dist')));
-app.get('/*', (req, res) => {
+app.use(express.static(__dirname + '/dist/portfolio/'));
+app.get('/*', function(req, res) {
   res.sendFile(path.join(__dirname + '/dist/portfolio/index.html'));
 });
 
